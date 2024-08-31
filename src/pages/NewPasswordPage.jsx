@@ -1,18 +1,18 @@
 
+
 import { lazy, Suspense } from 'react';
 import Loader from '../components/Loader';
 
-const OtpVerify = lazy(() => import('../components/OtpVerify'));
+const ResetPassword = lazy(() => import('../components/NewPassword'));
 
-const OtpPage = () => {
+const NewPasswordPage = () => {
     return (
         <div>
             <Suspense fallback={<Loader />}>
-                <OtpVerify />
+                <ResetPassword/>
             </Suspense>
         </div>
     );
 };
 
-export default OtpPage;
-
+export default NewPasswordPage;

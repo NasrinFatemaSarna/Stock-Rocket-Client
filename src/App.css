@@ -1,0 +1,101 @@
+
+.cls-1 {
+    fill: #2495f1;
+    animation: cls1 4s ease infinite both;
+  }
+  
+  @keyframes cls1 {
+    0% {
+      fill: #24f173;
+    }
+  
+    34% {
+      fill: #1cbced;
+    }
+  
+    66% {
+      fill: #1ef771;
+    }
+  
+    100% {
+      fill: #198dec;
+    }
+  }
+  
+  .cls-1,
+  .cls-2,
+  .cls-3 {
+    stroke-width: 0px;
+  }
+  
+  .cls-2 {
+    fill: #1ed7f7;
+    animation: cls2 4s ease infinite both;
+  }
+  
+  @keyframes cls2 {
+    0% {
+      fill: #1edef7;
+    }
+  
+    34% {
+      fill: #cbf124;
+    }
+  
+    66% {
+      fill: #1c99ed;
+    }
+  
+    100% {
+      fill: #cff71e;
+    }
+  }
+  
+  .cls-3 {
+    fill: #ed1c24;
+    animation: cls3 4s ease infinite both;
+  }
+  
+  @keyframes cls3 {
+    0% {
+      fill: #ed1c24;
+    }
+  
+    34% {
+      fill: #f7931e;
+    }
+  
+    66% {
+      fill: #f15a24;
+      ;
+    }
+  
+    100% {
+      fill: #ed1c24;
+    }
+  }
+  
+  .cls-4 {
+    display: none;
+  }
+  
+  #triangle {
+    height: 400px;
+    width: 400px;
+    padding-top: 30px;
+    animation: triangle 4s both infinite;
+  }
+  
+  @keyframes triangle {
+    0% {
+      transform: translateY(0px);
+    }
+  
+    50% {
+      transform: translateY(15px);
+    }
+  
+    100% {
+      transform: translateY(0px);
+    }
+  }  
